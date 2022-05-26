@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <style>
+        body{
+            text-align: center;
+            background-color: #7fffd4;
+        }
+        form{
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+            width: 50%;
+            margin: auto;
+            border: 1px solid #333;
+            border-radius: 5px;
+            padding: 0.5em;
+            background-color: #f0f8ff;
+        }
+    </style>
+</head>
+<body>
+    <h1>Formulario</h1>
+    <form action="#" method="POST">
+        <label for="input-name">Nome</label>
+        <input type="text" name="nome" id="input-name">
+        <label for="input-date">Data de nascimento</label>
+        <input type="date" name="data" id="input-date" required/>
+        <input type="file">
+        <label for="input-text" name="Mensagem">Mensagem</label>
+        <textarea name="mensagem" cols="30" rows="10">Escreva aqui</textarea>
+        <label for="cores" >Selecione uma cor: </label>
+        <select name="cores" id="cores">
+            <option value="" selected></option>
+            <option value="Azul">Azul</option>
+            <option value="Vermelho">Vermelho</option>
+            <option value="Branco">Branco</option>
+        </select>
+        <input type="submit" value="Enviar"/>
+    </form>
+</body>
+</html>

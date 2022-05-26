@@ -1,0 +1,26 @@
+body{
+    background-image: url(../css/images.jpg);
+    text-align: center;
+    
+}
+h1{
+    color:#7fffd4;
+    text-align: center;
+}
+h2{
+    color: #5f9ea0;
+    text-align: center;
+}
+p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-align: left;
+    text-indent: 30px;
+    line-height: 50px;
+    word-spacing: 5px;
+    color: #e9ddcd;
+}
+img{
+    width: 150px;
+    height: auto;
+}

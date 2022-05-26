@@ -1,0 +1,18 @@
+body{
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    font-family: Verdana, sans-serif;
+    font-size: 25px;
+    color:#6618af;
+}
+a:Link{
+    color:#a34ef3;
+}
+a:visited{
+    color:#0db8b8;
+}
+a:hover{
+    color:#c95609;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seletores</title>
+</head>
+<style>
+div > p{
+    color: blueviolet;
+}
+.text::first-line{
+    color: #a52a2a;
+}
+.text::first-letter{
+    color: #00ffff;
+}
+input[name~="nome"]{
+    font-size: 2rem;
+}
+p[class*="texto"]{
+    color: #7fff00;
+
+}
+</style>
+<body>
+    <div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, laboriosam.</p>
+        <div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus vel eveniet eaque inventore corrupti itaque laboriosam!</p>
+        </div>
+    </div>
+    <!--<h1>Titulo</h1>-->
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea, distinctio?</p>
+    <p class="text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit voluptate repellendus magni in exercitationem? Culpa.orem ipsum dolor sit, amet consectetur 
+    adipisicing elit. Sit voluptate repellendus magni in exercit</p>
+    <input type="text" name="primeiro nome">
+    <input type="text" name="segundo nome">
+    <p class="pritexto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint aspernatur quae facere tempore! Repellat, eaque.</p>
+    <p class="segtexto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint aspernatur quae facere tempore! Repellat, eaque.</p>
+</body>
+</html>
